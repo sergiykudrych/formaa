@@ -64,7 +64,7 @@
         $message = 'Данние отправлени!';
     }
 
-    $response = ['masseage' => $message];
+    $response = ['message' => $message];
 
     header('Content-type: application/json');
     esho json_encode($response);
